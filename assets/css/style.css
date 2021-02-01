@@ -78,6 +78,10 @@ h2 {
     text-align: center;
 }
 
+.description-content {
+    font-size: 19px;
+}
+
 .social-network {
     position: relative;
     top: 50%; left: 50%;
