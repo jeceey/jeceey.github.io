@@ -51,7 +51,7 @@ body {
     border-radius: 50%;
 }
 
-#switch:hover{
+#switch:hover {
     width: 40px;
     height: 40px;
 }
@@ -60,6 +60,7 @@ body {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(90deg);
     }
@@ -173,7 +174,7 @@ h2 {
 .copyright {
     font-size: 12px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: "Source Code Pro", sans-serif;
 }
 
@@ -242,5 +243,11 @@ h2 {
     body {
         background-color: var(--dark-clr);
         color: var(--white-clr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img-profile {
+        margin-top: 5px;
     }
 }
