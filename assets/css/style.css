@@ -149,7 +149,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 220px;
+    width: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
