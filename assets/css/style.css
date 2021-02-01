@@ -56,12 +56,12 @@ a {
 }
 
 h1 {
-    text-align: center;
+    
     padding-top: 40px;
 }
 
 h2 {
-    text-align: center;
+    font-size: 2em;
 }
 
 
@@ -70,12 +70,33 @@ h2 {
     text-align: justify;
 }
 
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.info-column {
+    width: 800px;
+}
+
 .main-title {
+    font-size: 3em;
     text-transform: uppercase;
 }
 
 .location {
-    text-align: center;
+    
+}
+
+.img-profile {
+    height: 200px;
+    width: 200px;
+    border: var(--secondary-clr) 2px solid;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .description-content {
@@ -105,7 +126,7 @@ h2 {
 }
 
 .social-network a i:hover {
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .copyright {
