@@ -26,46 +26,6 @@ body {
     color: var(--white-clr);
 }
 
-#switch {
-    width: 30px;
-    height: 30px;
-    border: 1px dotted white;
-    border-radius: 50%;
-    position: absolute;
-    animation: Anim1 1s infinite alternate;
-    pointer-events: none;
-    background: transparent;
-    top: 30px;
-    right: 30px;
-}
-
-#switch::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 15px;
-    height: 15px;
-    background: white;
-    border-radius: 50%;
-}
-
-#switch:hover {
-    width: 40px;
-    height: 40px;
-}
-
-@keyframes Anim1 {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(90deg);
-    }
-}
-
 .cursor-dot,
 .cursor-dot-outline {
     pointer-events: none;
