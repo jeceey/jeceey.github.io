@@ -8,6 +8,11 @@
     --white-clr: #ffffffff;
 }
 
+::selection {
+    background-color: var(--secondary-clr);
+    color: #ffff;
+}
+
 * {
     padding: 0;
     margin: 0;
