@@ -55,6 +55,24 @@ body {
     background-color: var(--main-clr);
 }
 
+.settings-ul {
+    margin:0;
+    padding:0;
+    float: left;
+    list-style-type:none;
+    text-align:center;
+}
+
+.settings-ul li {
+    float: left;
+    margin-left: 22px;
+    padding: 0;
+}
+
+.settings-ul li a {
+    color: var(--white-clr);
+}
+
 a {
     text-decoration: none;
     color: var(--secondary-clr);
@@ -141,6 +159,15 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
     font-family: "Source Code Pro", sans-serif;
+}
+
+.flex {
+    float: right;
+    display: flex;
+}
+
+.flex p {
+    margin: 10px;
 }
 
 #stars {
