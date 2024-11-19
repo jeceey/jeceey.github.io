@@ -149,7 +149,7 @@ footer {
 /* -- Responsive Section -- */
 /* Mobile */
 @media only screen and (max-width: 480px) { 
-    .nav-logo-text {
+    .nav-logo {
         display: none;
     }
 }
