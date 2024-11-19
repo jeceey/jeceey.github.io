@@ -136,6 +136,10 @@ header {
     margin-left: 30px;
 }
 
+.educ-card ul li {
+    margin: 10px 0;
+}
+
 .educ {
     font-weight: bold;
 }
@@ -189,6 +193,14 @@ footer {
 
     .nav-logo {
         display: none;
+    }
+
+    .contact-column {
+        display: inline-block;
+    }
+
+    .adress, .tel-email, .social {
+        margin: 20px 0;
     }
 }
 
