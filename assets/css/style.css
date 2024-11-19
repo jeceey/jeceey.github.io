@@ -31,13 +31,19 @@ a:hover {
 }
 
 .container {
-    margin-left: 87px;
-    margin-right: 87px;
+    padding: 20px;
+    width: 50vh;
+    margin-left: 25vh;
 }
 
 .page-title {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     margin: 1rem 0 .5rem;
+}
+
+.page-subtitle {
+    font-size: 1.15em;
+    margin: 1.5rem 0 .25rem;
 }
 
 /* Header & Nabigation */
