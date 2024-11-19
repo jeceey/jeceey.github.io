@@ -144,3 +144,12 @@ footer {
 .footer-note {
     color: #333;
 }
+
+
+/* -- Responsive Section -- */
+/* Mobile */
+@media only screen and (max-width: 480px) { 
+    .nav-logo-text {
+        display: none;
+    }
+}
