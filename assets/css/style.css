@@ -183,6 +183,7 @@ footer {
 /* - Mobile - */
 @media only screen and (max-width: 480px) { 
     .container {
+        padding: 15px;
         max-width: 90%;
     }
 
