@@ -43,7 +43,7 @@ a:hover {
 }
 
 .page-subtitle {
-    font-size: 1.15em;
+    font-size: 1.225em;
     margin: 1.5rem 0 .25rem;
 }
 
@@ -89,7 +89,6 @@ header {
 .home-container {
     height: 70%;
     width: 100%;
-    position: relative;
 }
 
 .home-intro {
@@ -104,10 +103,15 @@ header {
     transform: translateY(-50%);
 }
 
+.home-name {
+    font-size: 2rem ;
+}
+
 .title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 15px;
+    font-style: italic;
 }
 
 .home-bio {
@@ -125,7 +129,7 @@ header {
 
 .social-links li a {
     color: var(--text-clr);
-    font-size: 1.25rem;
+    font-size: 1.325rem;
 }
 
 
@@ -169,7 +173,8 @@ header {
 /* Contact Content */
 .contact-column {
     display: flex;
-    gap: 20px;
+    gap: 45px;
+    justify-content: center;
 }
 
 .contact-socials {
