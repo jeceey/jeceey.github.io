@@ -4,7 +4,7 @@
     --main-clr: #63cdda;
     --secondary-clr: #3dc1d3;
     --text-clr: #141414;
-    --white-clr: #ffffffff;
+    --white-clr: #ffffff;
     --grey-clr: #74808a;
 }
 
@@ -20,6 +20,10 @@
 html,
 body {
     height: 100vh;
+}
+
+body {
+    background-color: var(--white-clr);
 }
 
 a {
@@ -189,6 +193,20 @@ header {
 
 .contact-socials {
     list-style: none;
+}
+
+/* 404 Content */
+.notf-title {
+    text-align: center;
+}
+
+.notf-text {
+    margin: 17px 0;
+}
+
+.notf-back {
+    margin: 30px 0;
+    text-align: center;
 }
 
 
