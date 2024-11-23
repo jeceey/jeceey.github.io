@@ -108,7 +108,7 @@ header {
 }
 
 .home-name {
-    font-size: 2rem ;
+    font-size: 2rem;
 }
 
 .title {
@@ -122,6 +122,40 @@ header {
     color: var(--main-clr);
     font-size: 1.15rem;
     margin-bottom: 10px;
+    opacity: 0;
+}
+
+.cursor {
+    display: block;
+    position: absolute;
+    height: 1.16rem;
+    top: 0;
+    right: -5px;
+    width: 2px;
+    background-color: var(--main-clr);
+    z-index: 1;
+    -webkit-animation: flash 0.5s none infinite alternate;
+    animation: flash 0.5s none infinite alternate;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .home-bio {
@@ -147,7 +181,6 @@ header {
 }
 
 
-
 /* Research Content */
 .research-interest {
     margin-left: 30px;
@@ -171,13 +204,13 @@ header {
     float: right;
 }
 
-.cv-card{
+.cv-card {
     padding: 10px;
     margin: 20px 0;
     background-color: #3dc1d3;
     border-radius: .3em;
     text-align: center;
-} 
+}
 
 .cv-card a {
     color: var(--white-clr);
@@ -205,7 +238,7 @@ header {
 }
 
 .notf-back {
-    margin: 30px 0;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -223,7 +256,7 @@ footer {
 
 /* -- Responsive Section -- */
 /* - Mobile - */
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 480px) {
     .container {
         padding: 15px;
         max-width: 90%;
@@ -245,7 +278,9 @@ footer {
         display: inline-block;
     }
 
-    .adress, .tel-email, .social {
+    .adress,
+    .tel-email,
+    .social {
         margin: 20px 0;
     }
 }
