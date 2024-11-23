@@ -114,6 +114,12 @@ header {
     font-style: italic;
 }
 
+.home-greeting {
+    color: var(--main-clr);
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+}
+
 .home-bio {
     font-size: 1rem;
     margin-bottom: 20px;
