@@ -132,6 +132,10 @@ header {
     font-size: 1.325rem;
 }
 
+.social-links li a:hover {
+    color: var(--secondary-clr);
+}
+
 
 
 /* Research Content */
@@ -203,6 +207,10 @@ footer {
 
     .nav-logo {
         display: none;
+    }
+
+    .nav-menu a {
+        text-align: center;
     }
 
     .home-name {
