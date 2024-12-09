@@ -8,6 +8,10 @@
     --grey-clr: #74808a;
 }
 
+::selection {
+    background-color: var(--secondary-clr);
+    color: #ffff;
+}
 
 /* General Settings */
 * {
