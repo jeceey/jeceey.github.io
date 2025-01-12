@@ -246,6 +246,14 @@ header {
     color: var(--grey-clr);
 }
 
+.post-hr {
+    height: 2px;
+    width: 3rem;
+    background-color: var(--text-clr);
+    border: 0;
+    margin: 3em 0;
+}
+
 .post-summary {
 
 }
