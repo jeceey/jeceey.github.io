@@ -246,6 +246,10 @@ header {
     color: var(--grey-clr);
 }
 
+.post-summary {
+
+}
+
 .post-p {
     margin-bottom: 1rem;
 }
@@ -255,6 +259,7 @@ header {
 .notf-title {
     text-align: center;
     font-family: 'Bungee', sans-serif;
+    margin-top: 1.5rem;
 }
 
 .notf-text {
