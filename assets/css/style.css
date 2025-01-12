@@ -245,6 +245,7 @@ header {
 
 .post-date {
     color: var(--grey-clr);
+    margin-bottom: 1.5rem;
 }
 
 .post-hr {
@@ -252,7 +253,7 @@ header {
     width: 3rem;
     background-color: var(--text-clr);
     border: 0;
-    margin: 3em 0;
+    margin: 2em 0;
 }
 
 .post-summary {
