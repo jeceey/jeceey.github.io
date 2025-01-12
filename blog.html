@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal website of Jean-Charles Ekoue-Kouvahey">
+    <meta property="og:title" content="Jean-Charles Ekoue-Kouvahey">
+    <meta property="og:description" content="The personal website of Jean-Charles Ekoue-Kouvahey">
     <title>Blog | Jean-Charles Ekoue-Kouvahey</title>
+    <link rel="shortcut icon" href="assets/img/profile.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    
 
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">🌿 <span class="nav-logo-text">Jean-Charles</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="research.html">📝 Research</a></li>
+                <li><a href="about.html" class="active">📖 About</a></li>
+                <li><a href="contact.html">💬 Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navigation -->
+
+
+    <!-- About Content -->
+    <div class="container">
+        <h1 class="page-title">Blog</h1>
+
+        <p>I am currently enrolled in the second year of my bachelor's degree in bioengineering at Université Catholique de Louvain (UCLouvain) in Louvain-la-Neuve, Belgium.</p>
+
+        <h3 class="page-subtitle">Education</h3>
+        <div class="educ-card">
+            <ul>
+                <li>
+                    <p class="educ">BSc, Bioengineering <span class="educ-time">2023 - Present</span></p>
+                    <p class="educ-text">Université Catholique de Louvain, Belgium</p>
+                </li>
+                <li>
+                    <p class="educ">Baccalaureate, Science & Math major <span class="educ-time">2022 - 2023</span></p>
+                    <p class="educ-text">Collège Abbé Noël, Belgium</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="cv-card">
+            <p>You can download <a href="public/docs/CV.pdf" download="CV of Jean-Charles Ekoue-Kouvahey">my CV here!</a></p>
+        </div>
+    </div>
+    <!-- End About Content -->
+
+
+    <!-- Back to top button -->
+    <button id="back-to-top-btn"><i class="fa-solid fa-angle-up"></i></button>
+    <!-- End back to top button -->
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-note">&copy; 2024 Jean-Charles Ekoue-Kouvahey</p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="vendor/jquery-3.5.1.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
