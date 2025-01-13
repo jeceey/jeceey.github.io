@@ -248,13 +248,17 @@ header {
     font-size: 1.25rem;
     line-height: 1.75rem;
     color: var(--text-clr);
+    margin-bottom: .25rem;
+}
+
+.bcard-date {
+    color: var(--grey-clr);
     margin-bottom: .5rem;
 }
 
-.bcard-description,
-.bcard-date {
-    color: var(--grey-clr);
-}
+.bcard-description {
+    color: #222222;
+} 
 
 .bcard-hr {
     height: 2px;
