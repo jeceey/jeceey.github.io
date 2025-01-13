@@ -239,6 +239,10 @@ header {
 
 
 /* Blog Content */
+.blog-posts {
+    margin-top: 1rem;
+}
+
 .bcard-content {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -262,7 +266,7 @@ header {
 
 .bcard-hr {
     height: 2px;
-    background-color: var(--text-clr);
+    background-color: var(--grey-clr);
     border: 0;
 }
 
