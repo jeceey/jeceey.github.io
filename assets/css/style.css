@@ -239,6 +239,9 @@ header {
 
 
 /* Blog Content */
+.post-title {
+    font-size: 28px;
+}
 
 .post-date {
     color: var(--grey-clr);
