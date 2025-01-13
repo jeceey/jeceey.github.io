@@ -311,6 +311,7 @@ footer {
 
 .footer-note {
     color: var(--grey-clr);
+    margin-bottom: 1rem;
 }
 
 
