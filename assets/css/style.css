@@ -239,6 +239,34 @@ header {
 
 
 /* Blog Content */
+.bcard-content {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bcard-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bcard-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: var(--text-clr);
+    margin-bottom: .5rem;
+}
+
+.bcard-date {
+    text-align: right;
+}
+
+.bcard-description,
+.bcard-date {
+    color: var(--grey-clr);
+}
+
+
+/* Post Content */
 .post-title {
     margin-top: 1rem;
     font-size: 28px;
