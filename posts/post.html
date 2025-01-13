@@ -15,14 +15,6 @@
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
-    <script>
-        MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-            }
-        };
-    </script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 
 <body>
@@ -59,6 +51,17 @@
             <p class="post-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat reiciendis consectetur
                 libero blanditiis id deleniti eveniet accusantium. Animi, vitae modi? Debitis non distinctio dolorem ut
                 id voluptatem, cumque nihil!</p>
+            
+            <pre><code class="language-js">
+                const = roles [
+                    "Full-Stack",
+                    "Back-End",
+                    "Front-End",
+                    "Designer"
+                ];
+                const reversedArray = roles.reverse();
+                console.log(reversedArray);
+            </code></pre>         
 
             <p class="post-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestiae laudantium maiores
                 sequi consectetur porro ducimus, asperiores optio eum odio quidem est adipisci accusantium nisi aut
@@ -69,7 +72,7 @@
                 omnis mollitia, quidem asperiores cum quia deserunt doloremque esse debitis sapiente obcaecati minima,
                 veniam atque consequuntur reprehenderit impedit!</p>
 
-            <p class="post-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati ab et molestiae
+            <p class="post-p">Some math : <span>$ e^{i\pi} + 1 = 0 $</span>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati ab et molestiae
                 nisi voluptatibus beatae, non aliquam praesentium sit esse molestias, necessitatibus architecto? Eius
                 provident ipsum temporibus itaque quo?</p>
         </div>
@@ -101,8 +104,12 @@
         <p class="footer-note">&copy; 2024 Jean-Charles Ekoue-Kouvahey</p>
     </footer>
     <!-- End Footer -->
+    
 
     <script src="../vendor/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js" integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>MathJax={tex:{inlineMath: [['$', '$'], ['\\(', '\\)']]}};</script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     <script src="../assets/js/script.js"></script>
 </body>
 
