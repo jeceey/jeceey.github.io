@@ -294,6 +294,9 @@ header {
     margin-bottom: 1.25rem;
 }
 
+.post-tags {
+    margin: 1rem 0;
+}
 
 /* 404 Content */
 .notf-title {
@@ -339,12 +342,12 @@ header {
 /* Footer */
 footer {
     margin-top: 20px;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
 .footer-note {
     color: var(--grey-clr);
-    margin-bottom: 1rem;
 }
 
 
