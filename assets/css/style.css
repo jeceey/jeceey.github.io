@@ -239,9 +239,6 @@ header {
 
 
 /* Blog Content */
-.post-title {
-
-}
 
 .post-date {
     color: var(--grey-clr);
@@ -256,12 +253,8 @@ header {
     margin: 2em 0;
 }
 
-.post-summary {
-
-}
-
 .post-p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 
