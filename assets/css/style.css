@@ -240,6 +240,7 @@ header {
 
 /* Blog Content */
 .post-title {
+    margin-top: 1rem;
     font-size: 28px;
 }
 
