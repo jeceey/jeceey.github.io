@@ -265,7 +265,7 @@ header {
 } 
 
 .bcard-hr {
-    height: 2px;
+    height: 1.5px;
     background-color: var(--grey-clr);
     border: 0;
 }
