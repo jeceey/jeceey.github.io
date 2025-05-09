@@ -298,6 +298,24 @@ header {
     margin: 1.5em 0;
 }
 
+.next-post {
+    border-radius: 0.2em;
+    padding: 1.45em !important;
+    -webkit-box-shadow: 0 3px 20px rgba(8, 11, 80, .1);
+    -moz-box-shadow: 0 3px 20px rgba(8, 11, 80, .1);
+    box-shadow: 0 3px 20px rgba(8, 11, 80, .1);
+    margin-bottom: 1.75em;
+}
+
+.next-post h3 {
+    margin-bottom: .5rem;
+}
+
+.next-post p {
+    font-weight: bold;
+    color: #3dc1d3;
+}
+
 /* 404 Content */
 .notf-title {
     text-align: center;
