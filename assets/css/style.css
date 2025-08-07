@@ -294,6 +294,11 @@ header {
     margin-bottom: 1.25rem;
 }
 
+.post-quotes {
+    padding-left: .25rem;
+    color: var(--grey-clr2);
+}
+
 .post-tags {
     margin: 1.5em 0;
 }
