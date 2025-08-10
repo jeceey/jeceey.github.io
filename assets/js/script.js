@@ -33,6 +33,13 @@ $(document).ready(function () {
 });
 
 
+// Copy Year Update
+document.addEventListener("DOMContentLoaded", function() {
+    const currentYear = new Date().getFullYear();
+    document.getElementById("copy-year").textContent = currentYear;
+});
+
+
 // Back to top button
 const backToTopButton = document.querySelector("#back-to-top-btn");
 
